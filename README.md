@@ -8,33 +8,31 @@ I am an aspiring cybersecurity professional with a deep interest in technology a
 
 My journey in computer science has led me to develop a strong passion for cybersecurity, and I am now eager to transition into the field—specifically aiming to pursue roles in security engineering, architecture, or red team operations
 
-## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
+## 🧠 Skills
 
-| Skill                                         | Associated Project                                                  |
-|-----------------------------------------------|----------------------------------------------------------------------|
-| Security Auditing & Risk Identification        | <a href="#">Conduct a Security Audit</a>                             |
-| Network Protocol Analysis (DNS, ICMP, IP)      | <a href="#">Analyze Network Layer Communication</a>                 |
-| Operating System Hardening                     | <a href="#">Apply OS Hardening Techniques</a>                        |
-| Network Attack Identification                  | <a href="#">Analyze Network Attacks</a>                              |
-| Network Hardening Strategy                     | <a href="#">Analyze and Propose Network Hardening Solutions</a>     |
-| Incident Response with NIST Framework          | <a href="#">Respond to a Security Incident Using the NIST CSF</a>   |
-| CLI vs GUI Decision-Making                     | <a href="#">Select the Appropriate Interface for Security Tasks</a> |
-| Software Installation with Linux (APT)         | <a href="#">Install and Manage Software in a Linux Distribution</a> |
-| Shell Input/Output Proficiency                 | <a href="#">Examine Input and Output in the Shell</a>               |
-| File System Navigation and Analysis (Linux)    | <a href="#">Find Files and Analyze Contents Using Linux Commands</a>|
-| Log Filtering and Pattern Matching             | <a href="#">Filter and Search Logs with `grep`</a>                  |
-| File and Directory Management (Linux CLI)      | <a href="#">Manage Files with Linux Commands</a>                     |
-| File Authorization and Permission Control      | <a href="#">Manage Authorization with Linux Commands</a>             |
-| Packet Capture & Analysis (Wireshark/tcpdump)  | <a href="#">Investigate Traffic Using Wireshark and tcpdump</a>     |
-| Intrusion Detection with Suricata              | <a href="#">Use Suricata to Detect Suspicious Network Activity</a>  |
-| SQL Querying for Threat Hunting                | <a href="#">Extract and Filter Threat Data Using SQL</a>            |
-| Encryption Fundamentals (AES, RSA, PKI)        | <a href="#">Apply Encryption Concepts to Secure Data</a>            |
-| Access Control Concepts (AuthN/AuthZ)          | <a href="#">Implement Access Controls Based on Roles</a>            |
-| Asset Inventory & Classification               | <a href="#">Create and Manage Asset Inventories</a>                 |
-| Use of Security Playbooks in Incident Response | <a href="#">Apply Playbooks in SIEM-Based Scenarios</a>             |
-| Analysis of Log Files for Threat Indicators    | <a href="#">Parse and Analyze Logs for Security Events</a>          |
-
+| **Skill**                                      | **Associated Project**                                                                 |
+|------------------------------------------------|----------------------------------------------------------------------------------------|
+| Security Auditing & Risk Identification        | [Conduct a Security Audit](#)                                                         |
+| Network Protocol Analysis (DNS, ICMP, IP)      | [Analyze Network Layer Communication](#)                                              |
+| Operating System Hardening                     | [Apply OS Hardening Techniques](#)                                                    |
+| Network Attack Identification                  | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
+| Network Hardening Strategy                     | [Analyze and Propose Network Hardening Solutions](#)                                  |
+| Incident Response with NIST Framework          | [Respond to a Security Incident Using the NIST CSF](#)                                |
+| CLI vs GUI Decision-Making                     | [Select the Appropriate Interface for Security Tasks](#)                              |
+| Software Installation with Linux (APT)         | [Install and Manage Software in a Linux Distribution](#)                              |
+| Shell Input/Output Proficiency                 | [Examine Input and Output in the Shell](#)                                            |
+| File System Navigation and Analysis (Linux)    | [Find Files and Analyze Contents Using Linux Commands](#)                             |
+| Log Filtering and Pattern Matching             | [Filter and Search Logs with grep](#)                                                 |
+| File and Directory Management (Linux CLI)      | [Manage Files with Linux Commands](#)                                                 |
+| File Authorization and Permission Control      | [Manage Authorization with Linux Commands](#)                                         |
+| Packet Capture & Analysis (Wireshark/tcpdump)  | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
+| Intrusion Detection with Suricata              | [Use Suricata to Detect Suspicious Network Activity](#)                               |
+| SQL Querying for Threat Hunting                | [Extract and Filter Threat Data Using SQL](#)                                         |
+| Encryption Fundamentals (AES, RSA, PKI)        | [Apply Encryption Concepts to Secure Data](#)                                         |
+| Access Control Concepts (AuthN/AuthZ)          | [Implement Access Controls Based on Roles](#)                                         |
+| Asset Inventory & Classification               | [Create and Manage Asset Inventories](#)                                              |
+| Use of Security Playbooks in Incident Response | [Apply Playbooks in SIEM-Based Scenarios](#)                                          |
+| Analysis of Log Files for Threat Indicators    | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
 ## 🛠️ Tools
 
 ### 🔍 Network Monitoring & Traffic Analysis
@@ -163,7 +161,8 @@ My journey in computer science has led me to develop a strong passion for cybers
 > - Focus: Security operations, governance, risk management, and secure system design
 
 
-## Projects
-- Detection Lab
-- SOC Automation Project
-- Test Project
+## 📂 Projects
+
+- [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)
+- [SOC Automation Project](https://github.com/dlpz-SEC/SOC-Automation)
+- [Test Project](https://github.com/dlpz-SEC/Test-Project)

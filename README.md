@@ -142,7 +142,7 @@ My journey in computer science has led me to develop a strong passion for cybers
     <img src="https://img.shields.io/badge/-CISSP_(Aspirational)-2C3E50?&style=for-the-badge&logo=ISC2&logoColor=white" />
 </div>
 
-> 🟢 **Google Cybersecurity Professional Certificate – Completed**  
+> 🟢 **Google Cybersecurity Professional Certificate – Almost Completed**  
 > - Developed core skills in network security, Linux systems, incident response, SQL, encryption, and SIEM workflows  
 > - Completed hands-on labs including:  
 >   • Wireshark packet analysis  

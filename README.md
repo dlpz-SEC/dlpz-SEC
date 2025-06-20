@@ -6,7 +6,7 @@ I am an aspiring cybersecurity professional with a deep interest in technology a
 
 ## Objective
 
-My journey in computer science has led me to develop a strong passion for cybersecurity, and I am now eager to transition into the field—specifically aiming to pursue roles in security engineering, architecture, or red team operations
+My journey in computer science has led me to develop a strong passion for cybersecurity, and I am now eager to transition into the field specifically aiming to pursue roles in security engineering, architecture, or red team operations
 
 ## 🧠 Skills
 

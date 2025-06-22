@@ -33,6 +33,9 @@ My journey in computer science has led me to develop a strong passion for cybers
 | Asset Inventory & Classification               | [Create and Manage Asset Inventories](#)                                              |
 | Use of Security Playbooks in Incident Response | [Apply Playbooks in SIEM-Based Scenarios](#)                                          |
 | Analysis of Log Files for Threat Indicators    | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
+| Bash-Based Decryption Workflow                 | [Decrypt an Encrypted Message](https://github.com/dlpz-SEC/Decrypt-an-encrypted-message-)                                                     |
+
+
 ## 🛠️ Tools
 
 ### 🔍 Network Monitoring & Traffic Analysis

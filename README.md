@@ -23,9 +23,6 @@ My journey in computer science has led me to develop a strong passion for cybers
 
 ---
 
-### 💡 Notes
-- Each project demonstrates multiple SOC analyst–level skills such as packet analysis, threat identification, log inspection, and automation scripting.  
-- This condensed layout keeps your GitHub clean and recruiter-friendly — showing mastery through real, tangible work instead of course listings.  
                                        |
 
 

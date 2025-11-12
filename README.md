@@ -8,32 +8,25 @@ I am an aspiring cybersecurity professional with a deep interest in technology a
 
 My journey in computer science has led me to develop a strong passion for cybersecurity, and I am now eager to transition into the field specifically aiming to pursue roles in security engineering, architecture, or red team operations
 
-## 🧠 Skills
+## 🧠 Core Skills & Associated Projects
 
-| **Skill**                                      | **Associated Project**                                                                 |
-|------------------------------------------------|----------------------------------------------------------------------------------------|
-| Security Auditing & Risk Identification        | [Conduct a Security Audit](#)                                                         |
-| Network Protocol Analysis (DNS, ICMP, IP)      | [Analyze Network Layer Communication](#)                                              |
-| Operating System Hardening                     | [Apply OS Hardening Techniques](#)                                                    |
-| Network Attack Identification                  | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
-| Network Hardening Strategy                     | [Analyze and Propose Network Hardening Solutions](#)                                  |
-| Incident Response with NIST Framework          | [Respond to a Security Incident Using the NIST CSF](#)                                |
-| CLI vs GUI Decision-Making                     | [Select the Appropriate Interface for Security Tasks](#)                              |
-| Software Installation with Linux (APT)         | [Install and Manage Software in a Linux Distribution](#)                              |
-| Shell Input/Output Proficiency                 | [Examine Input and Output in the Shell](#)                                            |
-| File System Navigation and Analysis (Linux)    | [Find Files and Analyze Contents Using Linux Commands](#)                             |
-| Log Filtering and Pattern Matching             | [Filter and Search Logs with grep](#)                                                 |
-| File and Directory Management (Linux CLI)      | [Manage Files with Linux Commands](#)                                                 |
-| File Authorization and Permission Control      | [Manage Authorization with Linux Commands](#)                                         |
-| Packet Capture & Analysis (Wireshark/tcpdump)  | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
-| Intrusion Detection with Suricata              | [Use Suricata to Detect Suspicious Network Activity](#)                               |
-| SQL Querying for Threat Hunting                | [Extract and Filter Threat Data Using SQL](#)                                         |
-| Encryption Fundamentals (AES, RSA, PKI)        | [Apply Encryption Concepts to Secure Data](#)                                         |
-| Access Control Concepts (AuthN/AuthZ)          | [Implement Access Controls Based on Roles](#)                                         |
-| Asset Inventory & Classification               | [Create and Manage Asset Inventories](#)                                              |
-| Use of Security Playbooks in Incident Response | [Apply Playbooks in SIEM-Based Scenarios](#)                                          |
-| Analysis of Log Files for Threat Indicators    | [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)       |
-| Bash-Based Decryption Workflow                 | [Decrypt an Encrypted Message](https://github.com/dlpz-SEC/Decrypt-an-encrypted-message-)                                                     |
+| **Core Skill Area** | **Associated Project** |
+|----------------------|------------------------|
+| 🛰️ **Network Analysis & Attack Detection** | [SYN Flood Attack Incident Report](https://github.com/yourusername/SYN-Flood-Attack-Incident-Report) |
+| 🧩 **Intrusion Detection & Log Analysis** | [Suricata IDS Lab](https://github.com/yourusername/Suricata-IDS-Lab) |
+| 🧱 **Incident Response & Documentation** | [Incident Handler’s Journal](https://github.com/yourusername/Incident-Handlers-Journal) |
+| ⚙️ **Risk & Threat Modeling** | [PASTA Framework Case Study](https://github.com/yourusername/PASTA-Framework-Case-Study) |
+| 🛡️ **System Hardening & Defense** | [Network Hardening Solutions](https://github.com/yourusername/Network-Hardening-Solutions) |
+| 🐍 **Security Automation (Python)** | [Python Automation & File Parsing Lab](https://github.com/yourusername/Python-Automation-File-Parsing) |
+| 🧮 **SQL for Threat Hunting** | [Threat Data Extraction with SQL](https://github.com/yourusername/SQL-Threat-Data-Extraction) |
+| 🔐 **Cryptography & Encryption** | [Encryption & Decryption Workflow](https://github.com/yourusername/Encryption-Decryption-Workflow) |
+
+---
+
+### 💡 Notes
+- Each project demonstrates multiple SOC analyst–level skills such as packet analysis, threat identification, log inspection, and automation scripting.  
+- This condensed layout keeps your GitHub clean and recruiter-friendly — showing mastery through real, tangible work instead of course listings.  
+                                       |
 
 
 ## 🛠️ Tools

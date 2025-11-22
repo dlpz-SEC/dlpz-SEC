@@ -11,17 +11,18 @@ My journey in computer science has led me to develop a strong passion for cybers
 
 ## Core Skills & Associated Projects
 
-| **Core Skill Area** | **Associated Project** |
-|----------------------|------------------------|
-| **Network Analysis & Attack Detection** | [SYN Flood Attack Incident Report](https://github.com/yourusername/SYN-Flood-Attack-Incident-Report) |
-| **Intrusion Detection & Log Analysis** | [Suricata IDS Lab](https://github.com/yourusername/Suricata-IDS-Lab) |
-| **Incident Response & Documentation** | [Incident Handler’s Journal](https://github.com/yourusername/Incident-Handlers-Journal) |
-| **Risk & Threat Modeling** | [PASTA Framework Case Study](https://github.com/yourusername/PASTA-Framework-Case-Study) |
-| **System Hardening & Defense** | [Network Hardening Solutions](https://github.com/yourusername/Network-Hardening-Solutions) |
-| **Security Automation (Python)** | [Python Automation & File Parsing Lab](https://github.com/yourusername/Python-Automation-File-Parsing) |
-| **SQL for Threat Hunting** | [Threat Data Extraction with SQL](https://github.com/yourusername/SQL-Threat-Data-Extraction) |
-| **Cryptography & Encryption** | [Encryption & Decryption Workflow](https://github.com/yourusername/Encryption-Decryption-Workflow) |
+| Core Skill Area                     | Associated Projects                                                                                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](./syn-flood-attack-incident-report) <br> • [Wireshark Packet Analysis](./wireshark-packet-analysis) <br> • [tcpdump Packet Capture & Analysis](./tcpdump-packet-capture-analysis) |
+| **Intrusion Detection & Log Analysis**  | • [Suricata IDS Lab](./suricata-ids-lab)                                                                                                                              |
+| **Incident Response & Documentation**   | • [Incident Handler’s Journal](./incident-handlers-journal)                                                                                                           |
+| **Risk & Threat Modeling**              | • [PASTA Framework Case Study](./pasta-framework-case-study)                                                                                                          |
+| **System Hardening & Defense**          | • [Network Hardening Solutions](./network-hardening-solutions)                                                                                                        |
+| **Security Automation (Python)**        | • [Python Automation & File Parsing Lab](./python-automation-file-parsing)                                                                                            |
+| **SQL for Threat Hunting**              | • [Threat Data Extraction with SQL](./sql-threat-hunting)                                                                                                             |
+| **Cryptography & Encryption**           | • [Encryption & Decryption Workflow](./encryption-decryption-workflow)                                                                                                |
 
+ 
 ---
 
 ## Tools

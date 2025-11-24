@@ -22,6 +22,7 @@ My journey in computer science has led me to develop a strong passion for cybers
 | **Security Automation (Python)**        | • [Python Automation & File Parsing Lab](./projects/python-automation-file-parsing)                                      |
 | **SQL for Threat Hunting**              | • [Threat Data Extraction with SQL](./projects/sql-threat-hunting)                                                       |
 | **Cryptography & Encryption**           | • [Encryption & Decryption Workflow](./projects/encryption-decryption-workflow)                                          |
+
  
 ---
 

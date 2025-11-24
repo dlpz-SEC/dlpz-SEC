@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and strengthening architectures against real-world attacks. I’m now focused on transitioning into roles centered on security engineering, cloud identity, network defense, and AI-driven security. As AI-driven threats become more sophisticated, I’m building the skills to design defenses, analyze behavior, and respond effectively on the blue-team side to keep systems resilient.
+My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and strengthening architectures against real-world threats. I’m now focused on roles in security engineering, cloud identity, network defense, and AI-driven security. As AI-driven threats become more sophisticated, I’m building the skills to design defenses, analyze behavior, and respond effectively on the blue-team side while also using AI to accelerate my learning and strengthen my capabilities in the most efficient way possible.
 
 ## Objective
 

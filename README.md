@@ -3,11 +3,11 @@
   <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-I am an aspiring cybersecurity professional with a deep interest in technology and a drive to solve complex, real-world problems.
+My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and strengthening architectures against real-world attacks. I’m now focused on transitioning into roles centered on security engineering, cloud identity, network defense, and AI-driven security. As AI-driven threats become more sophisticated, I’m building the skills to design defenses, analyze behavior, and respond effectively on the blue-team side to keep systems resilient.
 
 ## Objective
 
-My journey in computer science has led me to develop a strong passion for cybersecurity, and I am now eager to transition into the field, specifically aiming to pursue roles in security engineering, architecture, or red team operations.
+My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and building defenses that scale. I’m now focused on transitioning into roles centered on security engineering, cloud identity, network defense, and AI-enhanced detection working on the blue team side to strengthen resilience and protect critical systems.
 
 <p align="center">
 

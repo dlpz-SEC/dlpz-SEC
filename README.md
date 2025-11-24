@@ -12,18 +12,16 @@ My journey in computer science has led me to develop a strong passion for cybers
 <p align="center">
 
 ## Core Skills & Associated Projects
-
-| Core Skill Area                     | Associated Projects                                                                                                                                                     |
-|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](./syn-flood-attack-incident-report) <br> • [Wireshark Packet Analysis](./wireshark-packet-analysis) <br> • [tcpdump Packet Capture & Analysis](./tcpdump-packet-capture-analysis) |
-| **Intrusion Detection & Log Analysis**  | • [Suricata IDS Lab](./suricata-ids-lab)                                                                                                                              |
-| **Incident Response & Documentation**   | • [Incident Handler’s Journal](./incident-handlers-journal)                                                                                                           |
-| **Risk & Threat Modeling**              | • [PASTA Framework Case Study](./pasta-framework-case-study)                                                                                                          |
-| **System Hardening & Defense**          | • [Network Hardening Solutions](./network-hardening-solutions)                                                                                                        |
-| **Security Automation (Python)**        | • [Python Automation & File Parsing Lab](./python-automation-file-parsing)                                                                                            |
-| **SQL for Threat Hunting**              | • [Threat Data Extraction with SQL](https://github.com/dlpz-SEC/sql-threat-hunting)                                                                                                             |
-| **Cryptography & Encryption**           | • [Encryption & Decryption Workflow](./encryption-decryption-workflow)                                                                                                |
-
+| Core Skill Area                     | Associated Projects                                                                                |
+|-------------------------------------|----------------------------------------------------------------------------------------------------|
+| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](./projects/syn-flood-incident-report) <br> • [Wireshark Packet Analysis](./projects/wireshark-packet-analysis) <br> • [tcpdump Packet Capture & Analysis](./projects/tcpdump-packet-capture-analysis) |
+| **Intrusion Detection & Log Analysis**  | • [Suricata IDS Lab](./projects/suricata-ids-lab)                                                                        |
+| **Incident Response & Documentation**   | • [Incident Handler’s Journal](./projects/incident-handlers-journal)                                                     |
+| **Risk & Threat Modeling**              | • [PASTA Framework Case Study](./projects/pasta-framework-case-study)                                                    |
+| **System Hardening & Defense**          | • [Network Hardening Solutions](./projects/network-hardening-solutions)                                                  |
+| **Security Automation (Python)**        | • [Python Automation & File Parsing Lab](./projects/python-automation-file-parsing)                                      |
+| **SQL for Threat Hunting**              | • [Threat Data Extraction with SQL](./projects/sql-threat-hunting)                                                       |
+| **Cryptography & Encryption**           | • [Encryption & Decryption Workflow](./projects/encryption-decryption-workflow)                                          |
  
 ---
 

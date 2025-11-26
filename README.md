@@ -13,16 +13,20 @@ My path through computer science has pushed me toward cybersecurity, where I’v
 
 ## Core Skills & Associated Projects
 
-| Core Skill Area                         | Associated Projects                                                                                                                                                        |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report) <br> • [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis) <br> • [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
-| **Intrusion Detection & Log Analysis**  | • Suricata IDS Lab                                                                                                                                                          |
-| **Incident Response & Documentation**   | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report)                                                                                                |
-| **Risk & Threat Modeling**              | • PASTA Framework Case Study                                                                                                                                                |
-| **System Hardening & Defense**          | • Network Hardening Solutions                                                                                                                                                |
-| **Security Automation (Python)**        | • Python Automation & File Parsing Lab                                                                                                                                       |
-| **SQL for Threat Hunting**              | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis)                                                                                   |
-| **Cryptography & Encryption**           | • Encryption & Decryption Workflow                                                                                                                                           |
+| **Core Skill Area**                         | **Associated Projects** |
+|---------------------------------------------|--------------------------|
+| **Network Analysis & Attack Detection**     | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report) <br> • [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis) <br> • [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
+| **Intrusion Detection & Log Analysis**      | • **Suricata IDS Lab** *(signature tuning + log investigation)* |
+| **Incident Response & Documentation**       | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report) <br> • **Phishing IR Playbook Execution** *(IOC review + response steps)* |
+| **Risk & Threat Modeling**                  | • **PASTA Framework Case Study** |
+| **Governance, Risk & Compliance (GRC)**     | • **Botium Toys Security Audit** *(controls, compliance, safeguards)* |
+| **Email Security & Phishing Analysis**      | • **Malicious Email Filtering** *(headers, URLs, IOC triage)* |
+| **Malware & IOC Investigation**             | • **Suspicious File Hash Investigation** *(OSINT + threat intelligence)* |
+| **Vulnerability & Threat Identification**   | • **USB Attack Vector Assessment** *(physical attack simulation)* |
+| **System Hardening & Defense**              | • **Network Hardening Solutions** |
+| **Security Automation (Python)**            | • **Python Automation & File Parsing Lab** *(regex, parsing, CLI)* |
+| **SQL for Threat Hunting**                  | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) |
+| **Cryptography & Encryption**               | • **Encryption & Decryption Workflow** |
 
  
 ---

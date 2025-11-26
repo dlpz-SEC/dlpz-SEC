@@ -9,7 +9,7 @@ As AI-driven threats evolve, I’m also learning to use AI and automation to spe
 
 ## Objective
 
-I’m working toward early-career roles in security engineering, cloud identity (IAM), network defense, and AI-enhanced detection. My goal is to apply what I’m learning to build scalable defenses, strengthen system resilience, and contribute to modern blue-team operations. I’m especially focused on engineering driven solutions, identity-centric security, and automated detection methods that address today’s rapidly evolving threat landscape.
+I’m working toward early-career roles in SOC and security engineering, cloud identity (IAM), network defense, and AI-enhanced detection. My goal is to apply what I’m learning to build scalable defenses, strengthen system resilience, and contribute to modern blue-team operations. I’m especially focused on engineering driven solutions, identity-centric security, and automated detection methods that address today’s rapidly evolving threat landscape.
 
 <p align="center">
 

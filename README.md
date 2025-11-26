@@ -3,11 +3,13 @@
   <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and strengthening architectures against real-world threats. I’m now focused on roles in security engineering, cloud identity, network defense, and AI-driven security. As AI-driven threats become more sophisticated, I’m building the skills to design defenses, analyze behavior, and respond effectively on the blue-team side while also using AI to accelerate my learning and strengthen my capabilities in the most efficient way possible.
+My path through computer science led me into cybersecurity, where I’ve been building practical skills in analyzing systems, studying attacker behavior, and hardening networks through hands-on labs and real projects. I’m developing experience in packet analysis, intrusion detection, Linux auditing, SQL investigations, and security automation—work that’s shaping my interest in how modern systems fail and how to build defenses that actually hold up.
+
+As AI-driven threats evolve, I’m also learning to use AI and automation to speed up analysis, detect patterns, and improve blue-team workflows. Right now my focus is mastering the fundamentals while growing into more advanced areas of detection, identity, and defensive engineering.
 
 ## Objective
 
-My path through computer science has pushed me toward cybersecurity, where I’ve developed a strong interest in securing systems, understanding attack patterns, and building defenses that scale. I’m now focused on transitioning into roles centered on security engineering, cloud identity, network defense, and AI-enhanced detection working on the blue team side to strengthen resilience and protect critical systems.
+I’m working toward early-career roles in security engineering, cloud identity (IAM), network defense, and AI-enhanced detection. My goal is to apply what I’m learning to build scalable defenses, strengthen system resilience, and contribute to modern blue-team operations. I’m especially focused on engineering driven solutions, identity-centric security, and automated detection methods that address today’s rapidly evolving threat landscape.
 
 <p align="center">
 

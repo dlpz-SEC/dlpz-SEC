@@ -15,20 +15,21 @@ I’m working toward early-career roles in SOC operations, security engineering,
 
 ## Core Skills & Associated Projects
 
-| **Core Skill Area**                         | **Associated Projects** |
-|---------------------------------------------|--------------------------|
-| **Network Analysis & Attack Detection**     | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report) <br> • [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis) <br> • [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
-| **Intrusion Detection & Log Analysis**      | • **Suricata IDS Lab** *(signature tuning + log investigation)* |
-| **Incident Response & Documentation**       | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report) <br> • **Phishing IR Playbook Execution** *(IOC review + response steps)* |
-| **Risk & Threat Modeling**                  | • **PASTA Framework Case Study** |
-| **Governance, Risk & Compliance (GRC)**     | • **Botium Toys Security Audit** *(controls, compliance, safeguards)* |
-| **Email Security & Phishing Analysis**      | • **Malicious Email Filtering** *(headers, URLs, IOC triage)* |
-| **Malware & IOC Investigation**             | • **Suspicious File Hash Investigation** *(OSINT + threat intelligence)* |
-| **Vulnerability & Threat Identification**   | • **USB Attack Vector Assessment** *(physical attack simulation)* |
-| **System Hardening & Defense**              | • **Network Hardening Solutions** |
-| **Security Automation (Python)**            | • **Python Automation & File Parsing Lab** *(regex, parsing, CLI)* |
-| **SQL for Threat Hunting**                  | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) |
-| **Cryptography & Encryption**               | • **Encryption & Decryption Workflow** |
+| **Core Skill Area** | **Associated Projects (Course + Module)** |
+|----------------------|-------------------------------------------|
+| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report) — *Course 3, Network Hardening*<br>• [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis) — *Course 6, Module 1*<br>• [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) — *Course 6, Module 1* |
+| **Intrusion Detection & Log Analysis** | • **Suricata IDS Lab** *(signature tuning + log investigation)* — *Course 6, Module 4* |
+| **Incident Response & Documentation** | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report) — *Course 5, Module 3 & Course 6, Module 3*<br>• **Phishing IR Playbook Execution** *(IOC review + response steps)* — *Course 6, Module 3* |
+| **Risk & Threat Modeling** | • **PASTA Framework Case Study** — *Course 5, Module 4* |
+| **Governance, Risk & Compliance (GRC)** | • **Botium Toys Security Audit** *(controls, compliance, safeguards)* — *Course 1, Module 4 & Course 2, Module 2* |
+| **Email Security & Phishing Analysis** | • **Malicious Email Filtering** *(headers, URLs, IOC triage)* — *Course 5, Module 4* |
+| **Malware & IOC Investigation** | • **Suspicious File Hash Investigation** *(OSINT + threat intelligence)* — *Course 6, Module 3* |
+| **Vulnerability & Threat Identification** | • **USB Attack Vector Assessment** *(physical attack simulation)* — *Course 5, Module 3* |
+| **System Hardening & Defense** | • **Network Hardening Solutions** — *Course 3, Network Hardening* |
+| **Security Automation (Python)** | • **Regex & File Parsing Lab** — *Course 7, Module 4*<br>• **Import & Parse a Text File Lab** — *Course 7, Module 4*<br>• **Debug Python Code Lab** — *Course 7, Module 4*<br>• **Update a File Through a Python Algorithm** *(Portfolio Project)* — *Course 7, Module 4* |
+| **SQL for Threat Hunting** | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) — *Course 7, Module 4* |
+| **Cryptography & Encryption** | • **Encryption & Decryption Workflow** — *Course 5, Module 2* |
+| **Security Framework Applications** *(CIA Triad + NIST applied in real exercises)* | • **CIA Triad Workplace Scenario Application** — *Course 2, Module 2 (Interactive Scenario)*<br>• **Risk Scoring Using NIST Concepts** — *Course 5, Module 1 (Risk Likelihood & Severity Activity)* |
 
  
 ---

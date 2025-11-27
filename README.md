@@ -25,7 +25,7 @@ I’m working toward early-career roles in SOC operations, security engineering,
 | **Email Security & Phishing Analysis** | • **Malicious Email Filtering** *(headers, URLs, IOC triage)* — *Course 5, Module 4* |
 | **Malware & IOC Investigation** | • **Suspicious File Hash Investigation** *(OSINT + threat intelligence)* — *Course 6, Module 3* |
 | **Vulnerability & Threat Identification** | • **USB Attack Vector Assessment** *(physical attack simulation)* — *Course 5, Module 3* |
-| **System Hardening & Defense** | • **Network Hardening Solutions** — *Course 3, Network Hardening* |
+| **System Hardening & Defense** | • **Network Hardening Solutions** — *Course 3, Module 4 Network Hardening* |
 | **Security Automation (Python)** | • **Regex & File Parsing Lab** — *Course 7, Module 4*<br>• **Import & Parse a Text File Lab** — *Course 7, Module 4*<br>• **Debug Python Code Lab** — *Course 7, Module 4*<br>• **Update a File Through a Python Algorithm** *(Portfolio Project)* — *Course 7, Module 4* |
 | **SQL for Threat Hunting** | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) — *Course 7, Module 4* |
 | **Cryptography & Encryption** | • **Encryption & Decryption Workflow** — *Course 5, Module 2* |

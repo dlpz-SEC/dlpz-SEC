@@ -18,18 +18,18 @@ I’m working toward early-career roles in SOC operations, security engineering,
 | **Core Skill Area** | **Associated Projects** |
 |----------------------|--------------------------|
 | **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)<br>• [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis)<br>• [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
-| **Intrusion Detection & Log Analysis** | • **Suricata IDS Lab** *(signature tuning + log investigation)* |
-| **Incident Response & Documentation** | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report)<br>• **Phishing IR Playbook Execution** *(IOC review + response steps)* |
-| **Risk & Threat Modeling** | • **PASTA Framework Case Study** |
-| **Governance, Risk & Compliance (GRC)** | • **Botium Toys Security Audit** *(controls, compliance, safeguards)* |
-| **Email Security & Phishing Analysis** | • **Malicious Email Filtering** *(headers, URLs, IOC triage)* |
-| **Malware & IOC Investigation** | • **Suspicious File Hash Investigation** *(OSINT + threat intelligence)* |
-| **Vulnerability & Threat Identification** | • **USB Attack Vector Assessment** *(physical attack simulation)* |
-| **System Hardening & Defense** | • **Network Hardening Solutions** |
-| **Security Automation (Python)** | • **Regex & File Parsing Lab**<br>• **Import & Parse a Text File Lab**<br>• **Debug Python Code Lab**<br>• **Update a File Through a Python Algorithm** *(Portfolio Project)* |
+| **Intrusion Detection & Log Analysis** | • [Suricata IDS Lab *(signature tuning + log investigation)*](https://github.com/dlpz-SEC/Suricata-IDS-Lab) |
+| **Incident Response & Documentation** | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report)<br>• [Phishing IR Playbook Execution *(IOC review + response steps)*](https://github.com/dlpz-SEC/Phishing-IR-Playbook) |
+| **Risk & Threat Modeling** | • [PASTA Framework Case Study](https://github.com/dlpz-SEC/PASTA-Framework-Case-Study) |
+| **Governance, Risk & Compliance (GRC)** | • [Botium Toys Security Audit *(controls, compliance, safeguards)*](https://github.com/dlpz-SEC/Botium-Toys-Security-Audit) |
+| **Email Security & Phishing Analysis** | • [Malicious Email Filtering *(headers, URLs, IOC triage)*](https://github.com/dlpz-SEC/Malicious-Email-Filtering) |
+| **Malware & IOC Investigation** | • [Suspicious File Hash Investigation *(OSINT + threat intelligence)*](https://github.com/dlpz-SEC/File-Hash-Investigation) |
+| **Vulnerability & Threat Identification** | • [USB Attack Vector Assessment *(physical attack simulation)*](https://github.com/dlpz-SEC/USB-Attack-Vector-Assessment) |
+| **System Hardening & Defense** | • [Network Hardening Solutions](https://github.com/dlpz-SEC/Network-Hardening-Solutions) |
+| **Security Automation (Python)** | • [Regex & File Parsing Lab](https://github.com/dlpz-SEC/Python-Regex-Parsing-Lab)<br>• [Import & Parse a Text File Lab](https://github.com/dlpz-SEC/Python-File-Parsing-Lab)<br>• [Debug Python Code Lab](https://github.com/dlpz-SEC/Python-Debugging-Lab)<br>• [Update a File Through a Python Algorithm *(Portfolio Project)*](https://github.com/dlpz-SEC/Python-Update-File-Algorithm) |
 | **SQL for Threat Hunting** | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) |
-| **Cryptography & Encryption** | • **Encryption & Decryption Workflow** |
-| **Security Framework Applications** | • **CIA Triad Workplace Scenario Application**<br>• **Risk Scoring Using NIST Concepts** |
+| **Cryptography & Encryption** | • [Encryption & Decryption Workflow](https://github.com/dlpz-SEC/Cryptography-Workflow) |
+| **Security Framework Applications** | • [CIA Triad Workplace Scenario Application](https://github.com/dlpz-SEC/CIA-Triad-Application)<br>• [Risk Scoring Using NIST Concepts](https://github.com/dlpz-SEC/NIST-Risk-Scoring) |
 
 
  

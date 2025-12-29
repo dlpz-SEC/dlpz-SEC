@@ -26,8 +26,7 @@ I’m working toward early-career roles in SOC operations, security engineering,
 | **Malware & IOC Investigation** | • [Suspicious File Hash Investigation *(OSINT + threat intelligence)*](https://github.com/dlpz-SEC/File-Hash-Investigation) |
 | **Vulnerability & Threat Identification** | • [USB Attack Vector Assessment *(physical attack simulation)*](https://github.com/dlpz-SEC/USB-Attack-Vector-Assessment) |
 | **System Hardening & Defense** | • [Network Hardening Solutions](https://github.com/dlpz-SEC/Network-Hardening-Solutions) |
-| **Security Automation (Python)** | • [Regex & File Parsing Lab](https://github.com/dlpz-SEC/Python-Regex-Parsing-Lab)<br>• [Import & Parse a Text File Lab](https://github.com/dlpz-SEC/Python-File-Parsing-Lab)<br>• [Debug Python Code Lab](https://github.com/dlpz-SEC/Python-Debugging-Lab)<br>• [Update a File Through a Python Algorithm *(Portfolio Project)*](https://github.com/dlpz-SEC/Python-Update-File-Algorithm) |
-| **SQL for Threat Hunting** | • [SQL Threat Hunting Analysis](https://github.com/dlpz-SEC/SQL-Threat-Hunting-Analysis) |
+**Security Automation (Python)** | • [Python-Log-Parsing-IOC-Extraction-and-Automation](https://github.com/dlpz-SEC/Python-Log-Parsing-IOC-Extraction-and-Automation) |
 | **Cryptography & Encryption** | • [Encryption & Decryption Workflow](https://github.com/dlpz-SEC/Cryptography-Workflow) |
 | **Security Framework Applications** | • [CIA Triad Workplace Scenario Application](https://github.com/dlpz-SEC/CIA-Triad-Application)<br>• [Risk Scoring Using NIST Concepts](https://github.com/dlpz-SEC/NIST-Risk-Scoring) |
 

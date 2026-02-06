@@ -1,37 +1,89 @@
 # Hello, I'm David
+
 <a href="https://www.linkedin.com/in/david-l-59a650369/">
   <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-My path through computer science led me into cybersecurity, where I’ve been building practical skills in analyzing systems, studying attacker behavior, and hardening networks through hands-on labs and real projects. I’m developing experience in packet analysis, intrusion detection, Linux auditing, SQL investigations, and security automation. This work is shaping my interest in how modern systems fail and how to build defenses that hold up in real SOC and blue-team environments.
+I'm a cybersecurity student building hands-on experience in defensive security operations. My focus is on the practical skills that matter in SOC environments: analyzing network traffic, investigating logs, tuning detection rules, and automating repetitive analyst tasks.
 
-As AI-driven threats evolve, I’m also learning to use AI and automation to speed up analysis, detect patterns, and improve blue-team workflows. Right now my focus is mastering the fundamentals while growing into more advanced areas of detection, identity, and defensive engineering.
+I work primarily with open-source security tools (Wazuh, Suricata, Wireshark) and I'm developing automation workflows that integrate threat intelligence APIs into detection pipelines. My goal is to understand how attacks look at the packet and log level, and build defenses that catch them.
 
-## Objective
+**Currently pursuing:** CompTIA Security+ 
 
-I’m working toward early-career roles in SOC operations, security engineering, cloud identity (IAM), network defense, and AI-enhanced detection. My aim is to apply what I’m learning to build scalable defenses, strengthen system resilience, and contribute to modern blue-team operations. I’m focused on engineering-driven solutions, identity-centric security, and automated detection methods that can keep pace with today’s rapidly evolving threat landscape.
+---
 
-<p align="center">
+## Career Focus
+
+**Target Role:** SOC Analyst > Security Analyst > Detection Engineer
+
+I'm building toward a career in blue-team operations with a long-term focus on detection engineering. Right now I'm focused on mastering the fundamentals (log analysis, network forensics, incident documentation) while developing the automation and scripting skills that separate Tier 1 analysts from engineers.
+
+---
+
+## Featured Projects
+
+### [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)
+`Wazuh` `VirusTotal API` `Python` `Automated Enrichment`
+
+Automated alert enrichment pipeline that queries VirusTotal for file hash reputation data when Wazuh generates alerts. Reduces manual IOC lookups and adds threat context directly to alert metadata.
+
+---
+
+### [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab)
+`SQL` `Log Analysis` `Threat Detection` `Investigation Queries`
+
+Lab environment with security event datasets for writing investigative queries. Scenarios include detecting brute-force patterns, identifying anomalous login times, and correlating events across multiple log sources.
+
+---
+
+### [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code)
+`GitHub Actions` `Sigma Rules` `Python` `CI/CD` `Infrastructure as Code`
+
+Building a version-controlled detection engineering workflow. Detection rules are written as code, validated through automated testing, and deployed via CI/CD pipeline. Enables rapid iteration, peer review of detection logic, and rollback capabilities when rules cause false positives.
+
+**Key Components:**
+- Sigma rule development and conversion
+- GitHub Actions for automated rule validation
+- Python-based rule testing framework
+- Version control for detection rule lifecycle
+
+**Status:** In Development
+
+---
+
+### [ADTE (Azure Sentinel Triage Engine)](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine)
+`Azure Sentinel` `Logic Apps` `Azure Functions` `Python` `SOAR`
+
+Automated alert triage engine to reduce alert fatigue and accelerate incident response. The engine enriches incoming alerts with threat intelligence, auto-closes known false positives based on defined criteria, and escalates high-fidelity alerts with contextual data attached.
+
+**Key Components:**
+- Azure Logic Apps for orchestration workflows
+- Azure Functions (Python) for enrichment logic
+- Sentinel API integration for alert ingestion
+- Threat intel enrichment from external feeds
+
+---
 
 ## Core Skills & Associated Projects
 
 | **Core Skill Area** | **Associated Projects** |
 |----------------------|--------------------------|
+| **SIEM & Security Automation** | • [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)<br>• [ADTE - Azure Sentinel Triage Engine](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine) |
+| **Detection Engineering** | • [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code) |
+| **SQL-Based Threat Hunting** | • [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab) |
 | **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)<br>• [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis)<br>• [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
 | **Intrusion Detection & Log Analysis** | • [Suricata IDS Lab *(signature tuning + log investigation)*](https://github.com/dlpz-SEC/Suricata-IDS-Lab) |
-| **Incident Response & Documentation** | • [Incident Handler’s Journal](https://github.com/dlpz-SEC/Incident-Report)<br>• [Phishing IR Playbook Execution *(IOC review + response steps)*](https://github.com/dlpz-SEC/Phishing-IR-Playbook) |
+| **Incident Response & Documentation** | • [Incident Handler's Journal](https://github.com/dlpz-SEC/Incident-Report)<br>• [Phishing IR Playbook Execution *(IOC review + response steps)*](https://github.com/dlpz-SEC/Phishing-IR-Playbook) |
 | **Risk & Threat Modeling** | • [PASTA Framework Case Study](https://github.com/dlpz-SEC/PASTA-Framework-Case-Study) |
 | **Governance, Risk & Compliance (GRC)** | • [Botium Toys Security Audit *(controls, compliance, safeguards)*](https://github.com/dlpz-SEC/Botium-Toys-Security-Audit) |
 | **Email Security & Phishing Analysis** | • [Malicious Email Filtering *(headers, URLs, IOC triage)*](https://github.com/dlpz-SEC/Malicious-Email-Filtering) |
 | **Malware & IOC Investigation** | • [Suspicious File Hash Investigation *(OSINT + threat intelligence)*](https://github.com/dlpz-SEC/File-Hash-Investigation) |
 | **Vulnerability & Threat Identification** | • [USB Attack Vector Assessment *(physical attack simulation)*](https://github.com/dlpz-SEC/USB-Attack-Vector-Assessment) |
 | **System Hardening & Defense** | • [Network Hardening Solutions](https://github.com/dlpz-SEC/Network-Hardening-Solutions) |
-**Security Automation (Python)** | • [Python-Log-Parsing-IOC-Extraction-and-Automation](https://github.com/dlpz-SEC/Python-Log-Parsing-IOC-Extraction-and-Automation) |
+| **Security Automation (Python)** | • [Python Log Parsing & IOC Extraction](https://github.com/dlpz-SEC/Python-Log-Parsing-IOC-Extraction-and-Automation) |
 | **Cryptography & Encryption** | • [Encryption & Decryption Workflow](https://github.com/dlpz-SEC/Cryptography-Workflow) |
 | **Security Framework Applications** | • [CIA Triad Workplace Scenario Application](https://github.com/dlpz-SEC/CIA-Triad-Application)<br>• [Risk Scoring Using NIST Concepts](https://github.com/dlpz-SEC/NIST-Risk-Scoring) |
 
-
- 
 ---
 
 ## Tools
@@ -44,13 +96,41 @@ I’m working toward early-career roles in SOC operations, security engineering,
     <img src="https://img.shields.io/badge/-tcpdump-333333?&style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </div>
 
-**Hands-on experience analyzing live and stored network traffic using Wireshark and tcpdump.**  
-- Identified suspicious packet behavior such as SYN flood DoS attacks  
-- Used filters to isolate protocols like DNS, ICMP, HTTP, and TCP three-way handshakes  
-- Logged and tagged events using Zeek for security monitoring  
-- Installed and configured Suricata IDS for alerting and traffic inspection  
-- Understood packet structures (headers, payloads) and used protocol knowledge to analyze threats  
-- Leveraged these tools to practice and document real-world incident response scenarios
+**Analyzing network traffic to detect and investigate security incidents:**
+- Captured and analyzed SYN flood DoS attacks, documenting packet-level IOCs
+- Built Wireshark display filters to isolate suspicious DNS queries, beaconing patterns, and cleartext credential exposure
+- Configured Suricata IDS with custom alert rules for threat-specific traffic signatures
+- Used Zeek to generate connection logs and extract metadata for timeline reconstruction
+- Performed pcap analysis to support incident response documentation
+
+---
+
+### SIEM & Detection Platforms
+<div>
+    <img src="https://img.shields.io/badge/-Wazuh-3C99DC?&style=for-the-badge&logo=wazuh&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Azure_Sentinel-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+</div>
+
+**Deploying and configuring SIEM platforms for centralized security monitoring.**
+- Deployed Wazuh for centralized log collection, alert generation, and endpoint visibility
+- Building Azure Sentinel integrations for automated alert triage and threat hunting
+- Configured alert rules and dashboards for security event monitoring
+- Integrating threat intelligence feeds for automated IOC enrichment
+
+---
+
+### SOAR & Security Automation
+<div>
+    <img src="https://img.shields.io/badge/-Azure_Logic_Apps-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Azure_Functions-0062AD?&style=for-the-badge&logo=azure-functions&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=github-actions&logoColor=white" />
+</div>
+
+**Building automation workflows to reduce manual analyst workload.**
+- Developing Logic Apps workflows for alert orchestration and automated response
+- Building Azure Functions (Python) for threat intel enrichment
+- Implementing GitHub Actions for detection rule CI/CD pipelines
+- Automating IOC lookups via VirusTotal API integration
 
 ---
 
@@ -62,16 +142,12 @@ I’m working toward early-career roles in SOC operations, security engineering,
     <img src="https://img.shields.io/badge/-APT_Package_Manager-5E5E5E?&style=for-the-badge&logo=debian&logoColor=white" />
 </div>
 
-**Comfortable working in a CLI Linux environment:**  
-- Navigated file systems using `cd`, `ls`, `pwd`, `cat`, `nano`, and `clear`  
-- Installed security tools (`tcpdump`, `Suricata`) using `apt`  
-- Managed permissions using `chmod`, `chown`, and `umask`  
-- Understood user roles: regular users vs. root user and the principle of least privilege  
-- Edited system files and logs directly  
-- Used Bash pipes and redirection for log parsing  
-- Followed the Linux Filesystem Hierarchy Standard (FHS) to find and manipulate system logs  
-- Applied shell logic for automation and data handling in a simulated analyst workflow
-
+**Linux administration and security-focused command line operations:**
+- Audited file permissions and ownership to identify misconfigurations and privilege issues
+- Parsed authentication logs (`/var/log/auth.log`) to detect brute-force attempts and unauthorized access
+- Built Bash pipelines with `grep`, `awk`, and `cut` for log filtering and IOC extraction
+- Managed user permissions using `chmod`, `chown`, and `umask` following least privilege principles
+- Installed and configured security tools (Suricata, tcpdump, Wazuh agents) from command line
 ---
 
 ### Encryption & Key Management
@@ -81,12 +157,10 @@ I’m working toward early-career roles in SOC operations, security engineering,
     <img src="https://img.shields.io/badge/-PKI-003366?&style=for-the-badge&logoColor=white" />
 </div>
 
-**Conceptual and practical knowledge of encryption fundamentals:**  
-- Compared symmetric vs. asymmetric encryption and their use cases  
-- Understood real-world applications of AES and RSA (e.g., file encryption vs. email signatures)  
-- Learned the flow of Public Key Infrastructure (PKI): certificate authorities, key exchange, and digital signatures  
-- Identified encryption vulnerabilities and the importance of key length and entropy  
-- Studied how HTTPS, VPNs, and secure messaging use encryption under the hood
+**Applied cryptography concepts in security analysis and tool configuration:**
+- Analyzed TLS handshakes in packet captures to verify encryption implementation
+- Configured HTTPS and certificate validation for security tool deployments
+- Evaluated encryption strength in vulnerability assessments (key length, cipher suites)
 
 ---
 
@@ -96,40 +170,57 @@ I’m working toward early-career roles in SOC operations, security engineering,
     <img src="https://img.shields.io/badge/-Filesystem_Hierarchy-333333?&style=for-the-badge&logo=linux&logoColor=white" />
 </div>
 
-**Skilled in log investigation and Linux filesystem navigation:**  
-- Used `grep`, `cut`, `sort`, and `less` to isolate security events in log files  
-- Located system logs such as `/var/log/syslog`, `/auth.log`, and `/dmesg`  
-- Applied regex with `grep` to detect login anomalies and system errors  
-- Explored both relative and absolute file paths in nested directory structures  
-- Investigated unauthorized access patterns through audit logs
+**Investigating security events through log analysis:**
+- Built regex patterns with `grep` to detect failed login clusters, privilege escalation attempts, and suspicious cron activity
+- Analyzed `/var/log/auth.log`, `syslog`, and application logs to reconstruct incident timelines
+- Correlated log entries across multiple sources to identify lateral movement indicators
+- Extracted IOCs from raw logs for threat intelligence enrichment
 
 ---
 
-### Databases & SQL
+### Databases & Query Languages
 <div>
     <img src="https://img.shields.io/badge/-SQL-4479A1?&style=for-the-badge&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/-KQL-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
     <img src="https://img.shields.io/badge/-Relational_DBs-336791?&style=for-the-badge&logo=sqlite&logoColor=white" />
 </div>
 
-**Fluent in writing and executing SQL queries for data analysis and investigation:**  
-- Queried large datasets using `SELECT`, `WHERE`, `AND`, `OR`, `LIKE`, and wildcards  
-- Performed table joins to correlate security events across tables  
-- Understood database structure: primary keys, foreign keys, and relational logic  
-- Applied inclusive (`>=`, `<=`) and exclusive (`<`, `>`) operators in filtering  
-- Wrote practical queries to simulate analyst investigations (e.g., find all failed logins on a date)
+**Writing investigative queries for threat detection and log analysis:**
+- Built detection queries for brute-force patterns, anomalous login times, and privilege escalation attempts
+- Correlated events across authentication logs, network logs, and endpoint telemetry
+- Identified failed login clusters and account lockout patterns indicative of credential attacks
+- Developing KQL queries for Azure Sentinel threat hunting and custom detection rules
+
+---
+
+### Scripting & Detection Engineering
+<div>
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Bash-121011?&style=for-the-badge&logo=gnubash&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Sigma_Rules-FF6600?&style=for-the-badge&logoColor=white" />
+</div>
+
+**Building automation scripts and detection logic for security operations:**
+- Writing Python scripts to automate IOC extraction and API lookups
+- Integrating VirusTotal API for automated hash reputation checks
+- Developing Sigma rules for cross-platform detection logic
+- Building log parsing utilities for security event analysis
+- Implementing detection-as-code workflows with version control
 
 ---
 
 ### Frameworks & Governance
 <div>
     <img src="https://img.shields.io/badge/-NIST_CSF-802000?&style=for-the-badge&logo=gov.uk&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MITRE_ATT%26CK-ED1C24?&style=for-the-badge&logoColor=white" />
 </div>
 
-**Applied the NIST Cybersecurity Framework (CSF) in simulated security environments:**  
-- Understood and applied the five core functions: Identify, Protect, Detect, Respond, Recover  
-- Used NIST CSF to guide internal security audits  
-- Created and evaluated policies and procedures around asset management and data handling  
+**Applied the NIST Cybersecurity Framework (CSF) in simulated security environments:**
+- Understood and applied the five core functions: Identify, Protect, Detect, Respond, Recover
+- Used NIST CSF to guide internal security audits
+- Created and evaluated policies and procedures around asset management and data handling
 - Practiced aligning findings to CSF categories when recommending security improvements
+- Map detected activity to MITRE ATT&CK techniques for threat classification
 
 ---
 
@@ -137,4 +228,24 @@ I’m working toward early-career roles in SOC operations, security engineering,
 
 <div>
     <img src="https://img.shields.io/badge/-Google_Cybersecurity_Certificate-34A853?&style=for-the-badge&logo=Google&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CompTIA_Security%2B_(Target)-FF0000?&style=for-the-badge&
+    <img src="https://img.shields.io/badge/-CompTIA_Security%2B_(In_Progress)-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+</div>
+
+---
+
+## Education
+
+**Santa Barbara City College**  
+Data Science & Computer Science  
+
+---
+
+## Currently Working On
+
+- CompTIA Security+ certification 
+
+---
+
+<p align="center">
+  <i>Open to entry-level SOC Analyst opportunities</i>
+</p>

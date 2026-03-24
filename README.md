@@ -71,19 +71,9 @@ Automated alert triage engine to reduce alert fatigue and accelerate incident re
 | **SIEM & Security Automation** | • [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)<br>• [ADTE - Azure Sentinel Triage Engine](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine) |
 | **Detection Engineering** | • [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code) |
 | **SQL-Based Threat Hunting** | • [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab) |
-| **Network Analysis & Attack Detection** | • [SYN Flood Attack Incident Report](https://github.com/dlpz-SEC/Incident-Report)<br>• [Wireshark Packet Analysis](https://github.com/dlpz-SEC/Wireshark-Packet-Analysis)<br>• [tcpdump Packet Capture & Analysis](https://github.com/dlpz-SEC/tcpdump-packet-capture-analysis) |
-| **Intrusion Detection & Log Analysis** | • [Suricata IDS Lab *(signature tuning + log investigation)*](https://github.com/dlpz-SEC/Suricata-IDS-Lab) |
-| **Incident Response & Documentation** | • [Incident Handler's Journal](https://github.com/dlpz-SEC/Incident-Report)<br>• Phishing IR Playbook Execution *(IOC review + response steps)* · `In Progress` |
-| **Risk & Threat Modeling** | • PASTA Framework Case Study · `In Progress` |
-| **Governance, Risk & Compliance (GRC)** | • Botium Toys Security Audit *(controls, compliance, safeguards)* · `In Progress` |
-| **Email Security & Phishing Analysis** | • Malicious Email Filtering *(headers, URLs, IOC triage)* · `In Progress` |
-| **Malware & IOC Investigation** | • Suspicious File Hash Investigation *(OSINT + threat intelligence)* · `In Progress` |
-| **Vulnerability & Threat Identification** | • USB Attack Vector Assessment *(physical attack simulation)* · `In Progress` |
-| **System Hardening & Defense** | • Network Hardening Solutions · `In Progress` |
-| **Security Automation (Python)** | • Python Log Parsing & IOC Extraction · `In Progress` |
-| **Cryptography & Encryption** | • Encryption & Decryption Workflow · `In Progress` |
-| **Security Framework Applications** | • CIA Triad Workplace Scenario Application · `In Progress`<br>• Risk Scoring Using NIST Concepts · `In Progress` |
-
+| **Network Incident Investigation** | • [Network Incident Investigation *(tcpdump → Wireshark → Suricata → Incident Report → Hardening)*](https://github.com/dlpz-SEC/network-incident-investigation) · `In Progress` |
+| **SOC Triage & IOC Analysis** | • [SOC Triage & IOC Analysis Pipeline *(phishing email → IOC extraction → hash investigation → Python automation)*](https://github.com/dlpz-SEC/soc-triage-ioc-pipeline) · `In Progress` |
+| **Security Assessment & Compliance** | • [Security Assessment Portfolio *(PASTA threat model · security audit · CIA triad · NIST risk scoring)*](https://github.com/dlpz-SEC/security-assessment-portfolio) · `In Progress` |
 ---
 
 ## Tools

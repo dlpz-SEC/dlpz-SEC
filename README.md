@@ -46,14 +46,23 @@ Building a version-controlled detection engineering workflow. Detection rules ar
 - Python-based rule testing framework
 - Version control for detection rule lifecycle
 
-**Status:** In Development
+**Status:** In Development 
 
 ---
 
 ### [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab)
-`SQL` `Log Analysis` `Threat Detection` `Investigation Queries`
+`SQLite` `Behavioral Baselines` `Anomaly Detection` `SOC Workflow`
 
-Lab environment with security event datasets for writing investigative queries. Scenarios include detecting brute-force patterns, identifying anomalous login times, and correlating events across multiple log sources.
+A simulated SOC investigation environment focused on **analytical tradecraft**. This lab demonstrates a complete threat hunting lifecycle—from raw telemetry to incident triage. Using SQL-based detection engineering on synthetic enterprise data, it identifies high-risk anomalies including credential theft, impossible travel, and post-termination activity.
+
+**Key Components:**
+
+* **Behavioral Baselining:** Statistical profiling of geographic footprints and user-to-asset relationships.
+* **Detection Engineering:** SQL logic designed to surface brute-force success and lateral movement.
+* **Triage & Prioritization:** Automated risk-scoring matrix categorized by severity and required SLA.
+* **Asset Integrity Validation:** Cross-referencing active inventory to prevent containment errors.
+
+**Status:** In Development 
 
 ---
 

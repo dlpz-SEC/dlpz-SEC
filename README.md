@@ -22,17 +22,16 @@ I'm building toward a career in blue-team operations with a long-term focus on d
 
 ## Featured Projects
 
-### [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)
-`Wazuh` `VirusTotal API` `Python` `Automated Enrichment`
+### [ADTE (Azure Sentinel Triage Engine)](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine)
+`Azure Sentinel Data` `Logic Apps` `Azure Functions` `Python` `SOAR`
 
-Automated alert enrichment pipeline that queries VirusTotal for file hash reputation data when Wazuh generates alerts. Reduces manual IOC lookups and adds threat context directly to alert metadata.
+Automated alert triage engine to reduce alert fatigue and accelerate incident response. The engine enriches incoming alerts with threat intelligence, auto-closes known false positives based on defined criteria, and escalates high-fidelity alerts with contextual data attached.
 
----
-
-### [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab)
-`SQL` `Log Analysis` `Threat Detection` `Investigation Queries`
-
-Lab environment with security event datasets for writing investigative queries. Scenarios include detecting brute-force patterns, identifying anomalous login times, and correlating events across multiple log sources.
+**Key Components:**
+- Azure Logic Apps for orchestration workflows
+- Azure Functions (Python) for enrichment logic
+- Sentinel API integration for alert ingestion
+- Threat intel enrichment from external feeds
 
 ---
 
@@ -51,19 +50,19 @@ Building a version-controlled detection engineering workflow. Detection rules ar
 
 ---
 
-### [ADTE (Azure Sentinel Triage Engine)](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine)
-`Azure Sentinel` `Logic Apps` `Azure Functions` `Python` `SOAR`
+### [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab)
+`SQL` `Log Analysis` `Threat Detection` `Investigation Queries`
 
-Automated alert triage engine to reduce alert fatigue and accelerate incident response. The engine enriches incoming alerts with threat intelligence, auto-closes known false positives based on defined criteria, and escalates high-fidelity alerts with contextual data attached.
-
-**Key Components:**
-- Azure Logic Apps for orchestration workflows
-- Azure Functions (Python) for enrichment logic
-- Sentinel API integration for alert ingestion
-- Threat intel enrichment from external feeds
+Lab environment with security event datasets for writing investigative queries. Scenarios include detecting brute-force patterns, identifying anomalous login times, and correlating events across multiple log sources.
 
 ---
 
+### [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)
+`Wazuh` `VirusTotal API` `Python` `Automated Enrichment`
+
+Automated alert enrichment pipeline that queries VirusTotal for file hash reputation data when Wazuh generates alerts. Reduces manual IOC lookups and adds threat context directly to alert metadata.
+
+---
 ## Core Skills & Associated Projects
 
 | **Core Skill Area** | **Associated Projects** |

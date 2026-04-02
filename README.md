@@ -38,16 +38,17 @@ I'm building toward a career centered on detection engineering and AI security r
 
 ## Featured Projects
 
-### [ADTE (Azure Sentinel Triage Engine)](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine)
-`Azure Sentinel Data` `Logic Apps` `Azure Functions` `Python` `SOAR`
+### [ADTE (Autonomous Detection Triage Engine)](https://github.com/dlpz-SEC/adte-detection-triage-engine)
+`Multi-Source SIEM` `Python` `Pytest` `Detection Engineering` `SOC Automation`
 
-Automated alert triage engine to reduce alert fatigue and accelerate incident response. The engine enriches incoming alerts with threat intelligence, auto-closes known false positives based on defined criteria, and escalates high-fidelity alerts with contextual data attached.
+Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh (live) — with weighted signal scoring, explainable verdicts, and defense-in-depth execution controls.
 
 **Key Components:**
-- Azure Logic Apps for orchestration workflows
-- Azure Functions (Python) for enrichment logic
-- Sentinel API integration for alert ingestion
-- Threat intel enrichment from external feeds
+- Pluggable source adapters (Wazuh Indexer live, Sentinel mock)
+- 5-signal weighted scoring with proportional redistribution when signals are unavailable
+- 6-layer safety gate system before any automated action
+- Explainable verdicts with per-signal rationale
+- CLI for dry-run analysis and batch processing
 
 ---
 
@@ -93,7 +94,7 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 
 | **Core Skill Area** | **Associated Projects** |
 |----------------------|--------------------------|
-| **SIEM & Security Automation** | [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab), [ADTE - Azure Sentinel Triage Engine](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine) |
+| **SIEM & Security Automation** | [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab), [ADTE — Autonomous Detection Triage Engine](https://github.com/dlpz-SEC/adte-detection-triage-engine) |
 | **Detection Engineering** | [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code) |
 | **SQL-Based Threat Hunting** | [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab) |
 | **Network Incident Investigation** | [Network Incident Investigation *(tcpdump, Wireshark, Suricata, Incident Report, Hardening)*](https://github.com/dlpz-SEC/network-incident-investigation) · `In Progress` |
@@ -126,28 +127,31 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 <div>
     <img src="https://img.shields.io/badge/-Wazuh-3C99DC?&style=for-the-badge&logo=wazuh&logoColor=white" />
     <img src="https://img.shields.io/badge/-Azure_Sentinel-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenSearch-005EB8?&style=for-the-badge&logo=opensearch&logoColor=white" />
 </div>
 
 **Deploying and configuring SIEM platforms for centralized security monitoring:**
-- Deployed Wazuh for centralized log collection, alert generation, and endpoint visibility
-- Building Azure Sentinel integrations for automated alert triage and threat hunting
+- Deployed Wazuh on Ubuntu 24.04 VM for centralized log collection, alert generation, and endpoint visibility — queried 3,000+ real alerts via the Wazuh Indexer (OpenSearch) API on port 9200 with pagination (500 alerts/request)
+- Developed a Sentinel mock adapter for alert normalization and triage pipeline testing, with full incident schema mapping and downstream scoring compatibility
+- Mapped real Wazuh alert fields to a normalized incident schema including MITRE ATT&CK technique extraction, severity classification by rule level, and source IP/user attribution
+- Implemented automatic signal weight redistribution when signals are unavailable — Wazuh alerts skip geo and MFA signals, redistributing their combined 55pts proportionally across the 3 remaining evaluable signals, preserving the full 0–100 scoring range
 - Configured alert rules and dashboards for security event monitoring
-- Integrating threat intelligence feeds for automated IOC enrichment
 
 ---
 
 ### SOAR & Security Automation
 <div>
-    <img src="https://img.shields.io/badge/-Azure_Logic_Apps-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Azure_Functions-0062AD?&style=for-the-badge&logo=azure-functions&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Pytest-0A9EDC?&style=for-the-badge&logo=pytest&logoColor=white" />
     <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=github-actions&logoColor=white" />
 </div>
 
-**Building automation workflows to reduce manual analyst workload:**
-- Developing Logic Apps workflows for alert orchestration and automated response
-- Building Azure Functions (Python) for threat intel enrichment
-- Implementing GitHub Actions for detection rule CI/CD pipelines
-- Automating IOC lookups via VirusTotal API integration
+**Building automated detection and response pipelines to reduce alert fatigue:**
+- Built ADTE (Autonomous Detection Triage Engine) — a deterministic, source-agnostic triage engine with pluggable SIEM adapters (Wazuh live, Sentinel mock), producing 0–100 risk and confidence scores with explainable per-signal verdicts
+- Engineered 5-signal weighted scoring: impossible travel (30pts), MFA fatigue (25pts), IP reputation (20pts), device novelty (15pts), and login hour anomaly (10pts) — with proportional weight redistribution when signals are unavailable
+- Implemented a 6-layer safety gate system enforcing defense-in-depth before any automated action — default config blocks all execution; dry-run, kill switch, tenant allowlist, and action allowlist must all pass
+- Designed deterministic routing policy that auto-closes known false positives and escalates high-fidelity alerts with enriched context attached
+- Maintained 110 passing tests across 8 test files covering adapter logic, signal weight redistribution, geo/intel enrichment, policy engine, safety gates, and CLI behavior via GitHub Actions CI
 
 ---
 
@@ -263,7 +267,7 @@ Data Science & Computer Science
 
 - CompTIA Security+ certification
 - AI/ML security research within the MITRE ATLAS framework
-- Expanding ADTE with multi-source adapter support and confidence-weighted triage logic
+- Expanding ADTE with real Sentinel REST API integration, multi-source threat intel enrichment (AbuseIPDB, VirusTotal, OTX), and SOAR-ready JSON action output
 
 ---
 

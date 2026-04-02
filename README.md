@@ -4,19 +4,35 @@
   <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-I'm a cybersecurity student building hands-on experience in defensive security operations. My focus is on the practical skills that matter in SOC environments: analyzing network traffic, investigating logs, tuning detection rules, and automating repetitive analyst tasks.
+As a Computer Science and Data Science student, I bridge the gap between traditional Security Operations and modern software engineering. My focus is on replacing manual, repetitive analysis with version controlled pipelines and deterministic triage engines that eliminate alert fatigue at scale.
 
-I work primarily with open-source security tools (Wazuh, Suricata, Wireshark) and I'm developing automation workflows that integrate threat intelligence APIs into detection pipelines. My goal is to understand how attacks look at the packet and log level, and build defenses that catch them.
+**CORE ENGINEERING FOCUS**
 
-**Currently pursuing:** CompTIA Security+ 
+Detection-as-Code: Engineered a Sigma-based CI/CD workflow featuring multi-SIEM conversion (Splunk, Sentinel, Elastic), schema validation, and confidence-weighted MITRE ATT&CK mapping.
+
+Autonomous Triage: Designed a deterministic scoring engine for Microsoft Sentinel that enriches incidents with real-time threat intel and executes automated logic for high-fidelity escalation.
+
+SOC Threat Hunting Lab: Developed SQL-driven threat hunting baselines to detect identity based anomalies, including impossible travel and post-termination activity.
+
+**THE AI SECURITY PIVOT**
+
+I am actively researching the intersection of LLMs and Security Operations. My current work focuses on securing the AI lifecycle, applying detection engineering principles to mitigate prompt injection and adversarial ML threats within the MITRE ATLAS framework.
+
+**TECHNICAL STACK**
+
+Languages: Python (Automation), SQL (Investigation), KQL, Bash, Regex.
+Platforms: Wazuh, Suricata, GitHub Actions (CI/CD).
+Frameworks: MITRE ATT&CK / ATLAS, NIST CSF.
+
+**Currently pursuing:** CompTIA Security+
 
 ---
 
 ## Career Focus
 
-**Target Role:** SOC Analyst > Security Analyst > Detection Engineer
+**Target Role:** Detection Engineer | AI/ML Security Researcher
 
-I'm building toward a career in blue-team operations with a long-term focus on detection engineering. Right now I'm focused on mastering the fundamentals (log analysis, network forensics, incident documentation) while developing the automation and scripting skills that separate Tier 1 analysts from engineers.
+I'm building toward a career centered on detection engineering and AI security research. My work focuses on replacing manual SOC workflows with version-controlled, deterministic systems, and extending that engineering mindset into securing AI systems against adversarial threats. Near-term, I'm targeting detection engineering and security automation roles where I can ship detection logic as code, not tickets. Longer-term, I'm positioning toward AI/ML security, specifically applying detection engineering principles to adversarial ML, prompt injection, and LLM threat modeling within the MITRE ATLAS framework.
 
 ---
 
@@ -46,14 +62,14 @@ Building a version-controlled detection engineering workflow. Detection rules ar
 - Python-based rule testing framework
 - Version control for detection rule lifecycle
 
-**Status:** In Development 
+**Status:** In Development
 
 ---
 
 ### [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab)
 `SQLite` `Behavioral Baselines` `Anomaly Detection` `SOC Workflow`
 
-A simulated SOC investigation environment focused on **analytical tradecraft**. This lab demonstrates a complete threat hunting lifecycle—from raw telemetry to incident triage. Using SQL-based detection engineering on synthetic enterprise data, it identifies high-risk anomalies including credential theft, impossible travel, and post-termination activity.
+A simulated SOC investigation environment focused on **analytical tradecraft**. This lab demonstrates a complete threat hunting lifecycle, from raw telemetry to incident triage. Using SQL-based detection engineering on synthetic enterprise data, it identifies high-risk anomalies including credential theft, impossible travel, and post-termination activity.
 
 **Key Components:**
 
@@ -62,7 +78,7 @@ A simulated SOC investigation environment focused on **analytical tradecraft**. 
 * **Triage & Prioritization:** Automated risk-scoring matrix categorized by severity and required SLA.
 * **Asset Integrity Validation:** Cross-referencing active inventory to prevent containment errors.
 
-**Status:** In Development 
+**Status:** In Development
 
 ---
 
@@ -72,16 +88,19 @@ A simulated SOC investigation environment focused on **analytical tradecraft**. 
 Automated alert enrichment pipeline that queries VirusTotal for file hash reputation data when Wazuh generates alerts. Reduces manual IOC lookups and adds threat context directly to alert metadata.
 
 ---
+
 ## Core Skills & Associated Projects
 
 | **Core Skill Area** | **Associated Projects** |
 |----------------------|--------------------------|
-| **SIEM & Security Automation** | • [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab)<br>• [ADTE - Azure Sentinel Triage Engine](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine) |
-| **Detection Engineering** | • [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code) |
-| **SQL-Based Threat Hunting** | • [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab) |
-| **Network Incident Investigation** | • [Network Incident Investigation *(tcpdump → Wireshark → Suricata → Incident Report → Hardening)*](https://github.com/dlpz-SEC/network-incident-investigation) · `In Progress` |
-| **SOC Triage & IOC Analysis** | • [SOC Triage & IOC Analysis Pipeline *(phishing email → IOC extraction → hash investigation → Python automation)*](https://github.com/dlpz-SEC/soc-triage-ioc-pipeline) · `In Progress` |
-| **Security Assessment & Compliance** | • [Security Assessment Portfolio *(PASTA threat model · security audit · CIA triad · NIST risk scoring)*](https://github.com/dlpz-SEC/security-assessment-portfolio) · `In Progress` |
+| **SIEM & Security Automation** | [Wazuh SIEM + VirusTotal Integration](https://github.com/dlpz-SEC/Wazuh-SIEM-automation-lab), [ADTE - Azure Sentinel Triage Engine](https://github.com/dlpz-SEC/adte-azure-sentinel-triage-engine) |
+| **Detection Engineering** | [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code) |
+| **SQL-Based Threat Hunting** | [SOC Threat Hunting Lab](https://github.com/dlpz-SEC/soc-threat-hunting-lab) |
+| **Network Incident Investigation** | [Network Incident Investigation *(tcpdump, Wireshark, Suricata, Incident Report, Hardening)*](https://github.com/dlpz-SEC/network-incident-investigation) · `In Progress` |
+| **SOC Triage & IOC Analysis** | [SOC Triage & IOC Analysis Pipeline *(phishing email, IOC extraction, hash investigation, Python automation)*](https://github.com/dlpz-SEC/soc-triage-ioc-pipeline) · `In Progress` |
+| **Security Assessment & Compliance** | [Security Assessment Portfolio *(PASTA threat model, security audit, CIA triad, NIST risk scoring)*](https://github.com/dlpz-SEC/security-assessment-portfolio) · `In Progress` |
+| **AI/ML Security Research** | Applying detection engineering principles to adversarial ML and prompt injection within the MITRE ATLAS framework · `In Progress` |
+
 ---
 
 ## Tools
@@ -109,7 +128,7 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
     <img src="https://img.shields.io/badge/-Azure_Sentinel-0078D4?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
 </div>
 
-**Deploying and configuring SIEM platforms for centralized security monitoring.**
+**Deploying and configuring SIEM platforms for centralized security monitoring:**
 - Deployed Wazuh for centralized log collection, alert generation, and endpoint visibility
 - Building Azure Sentinel integrations for automated alert triage and threat hunting
 - Configured alert rules and dashboards for security event monitoring
@@ -124,7 +143,7 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
     <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?&style=for-the-badge&logo=github-actions&logoColor=white" />
 </div>
 
-**Building automation workflows to reduce manual analyst workload.**
+**Building automation workflows to reduce manual analyst workload:**
 - Developing Logic Apps workflows for alert orchestration and automated response
 - Building Azure Functions (Python) for threat intel enrichment
 - Implementing GitHub Actions for detection rule CI/CD pipelines
@@ -146,6 +165,7 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 - Built Bash pipelines with `grep`, `awk`, and `cut` for log filtering and IOC extraction
 - Managed user permissions using `chmod`, `chown`, and `umask` following least privilege principles
 - Installed and configured security tools (Suricata, tcpdump, Wazuh agents) from command line
+
 ---
 
 ### Encryption & Key Management
@@ -211,14 +231,15 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 <div>
     <img src="https://img.shields.io/badge/-NIST_CSF-802000?&style=for-the-badge&logo=gov.uk&logoColor=white" />
     <img src="https://img.shields.io/badge/-MITRE_ATT%26CK-ED1C24?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MITRE_ATLAS-1A1A2E?&style=for-the-badge&logoColor=white" />
 </div>
 
-**Applied the NIST Cybersecurity Framework (CSF) in simulated security environments:**
-- Understood and applied the five core functions: Identify, Protect, Detect, Respond, Recover
-- Used NIST CSF to guide internal security audits
+**Applied security frameworks across detection engineering and AI security research:**
+- Understood and applied the five NIST CSF core functions: Identify, Protect, Detect, Respond, Recover
+- Used NIST CSF to guide internal security audits and align findings to control categories
 - Created and evaluated policies and procedures around asset management and data handling
-- Practiced aligning findings to CSF categories when recommending security improvements
-- Map detected activity to MITRE ATT&CK techniques for threat classification
+- Mapped detected activity to MITRE ATT&CK techniques for threat classification and detection coverage
+- Applying MITRE ATLAS to research adversarial threats targeting AI and ML systems, including prompt injection and model evasion
 
 ---
 
@@ -233,17 +254,19 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 
 ## Education
 
-**Santa Barbara City College**  
-Data Science & Computer Science  
+**Santa Barbara City College**
+Data Science & Computer Science
 
 ---
 
 ## Currently Working On
 
-- CompTIA Security+ certification 
+- CompTIA Security+ certification
+- AI/ML security research within the MITRE ATLAS framework
+- Expanding ADTE with multi-source adapter support and confidence-weighted triage logic
 
 ---
 
 <p align="center">
-  <i>Open to entry-level SOC Analyst opportunities</i>
+  <i>Open to Detection Engineering and AI/ML Security Research opportunities</i>
 </p>

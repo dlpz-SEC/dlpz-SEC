@@ -6,28 +6,6 @@
 
 As a Computer Science and Data Science student, I bridge the gap between traditional Security Operations and modern software engineering. My focus is on replacing manual, repetitive analysis with version controlled pipelines and deterministic triage engines that eliminate alert fatigue at scale.
 
-**CORE ENGINEERING FOCUS**
-
-Detection-as-Code: Engineered a Sigma-based CI/CD workflow featuring multi-SIEM conversion (Splunk, Sentinel, Elastic), schema validation, and confidence-weighted MITRE ATT&CK mapping.
-
-Autonomous Triage: Designed a deterministic scoring engine for Microsoft Sentinel that enriches incidents with real-time threat intel and executes automated logic for high-fidelity escalation.
-
-SOC Threat Hunting Lab: Developed SQL-driven threat hunting baselines to detect identity based anomalies, including impossible travel and post-termination activity.
-
-**THE AI SECURITY PIVOT**
-
-I am actively researching the intersection of LLMs and Security Operations. My current work focuses on securing the AI lifecycle, applying detection engineering principles to mitigate prompt injection and adversarial ML threats within the MITRE ATLAS framework.
-
-**TECHNICAL STACK**
-
-Languages: Python (Automation), SQL (Investigation), KQL, Bash, Regex.
-Platforms: Wazuh, Suricata, GitHub Actions (CI/CD).
-Frameworks: MITRE ATT&CK / ATLAS, NIST CSF.
-
-**Currently pursuing:** CompTIA Security+
-
----
-
 ## Career Focus
 
 **Target Role:** Detection Engineer | AI/ML Security Researcher

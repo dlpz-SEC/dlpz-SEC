@@ -16,23 +16,23 @@ I'm building toward a career centered on detection engineering and AI security r
 
 ## Featured Projects
 
-### [ADTE (Autonomous Detection Triage Engine)](https://github.com/dlpz-SEC/adte-detection-triage-engine)
-`Multi-Source SIEM` `Python` `Pytest` `Flask` `Anthropic SDK` `Detection Engineering` `SOC Automation`
+## [ADTE — Autonomous Detection & Triage Engine](https://github.com/davidlpz818/adte-detection-triage-engine)
+`Multi-Source SIEM` `Python` `Flask` `React` `Pytest` `Detection Engineering` `SOC Automation` `NIST 800-61`
 
-Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh (live) — with weighted signal scoring, explainable verdicts, defense-in-depth execution controls, and a full 10-view web UI for live triage review.
+Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh Indexer (live) — with 5-signal weighted scoring, LLM-assisted summaries, explainable verdicts, and defense-in-depth execution controls.
 
-**Key Components:**
-- Pluggable source adapters (Wazuh Indexer live, Sentinel mock)
-- 5-signal weighted scoring with proportional redistribution when signals are unavailable
-- 6-layer safety gate system before any automated action
-- Explainable verdicts with per-signal rationale and optional Claude-powered narrative summaries
-- Multi-source threat intel enrichment (AbuseIPDB, VirusTotal, OTX) with parallel API calls and per-IP cache
-- Full 10-view Flask web UI (single-file React SPA) with real-time alert queue and queue triage cache
-- Verdict audit log (SQLite), analyst FP/TP feedback loop with FP auto-promotion to registry
-- Alert router (Slack webhook) and auto-ticket pipeline (Linear, Trello) for high/medium risk verdicts
-- MITRE ATT&CK + NIST 800-61 coverage badges on all verdict surfaces
-- RBAC auth UX with session-safe bearer token storage
-- 213 passing tests across 10 test files; full security audit completed with all HIGH/MEDIUM/LOW findings remediated
+**Key Components**
+
+- Pluggable source adapters: Wazuh Indexer live (OpenSearch) + Sentinel mock
+- 5-signal weighted scoring — impossible travel, MFA fatigue, IP reputation, device novelty, login-hour anomaly — with proportional redistribution when a signal is unavailable
+- Flask REST API — 12 endpoints with RBAC, per-key rate limiting, and CORS
+- Single-file React SPA — 9-view sidebar UI with Chart.js, dark/light theme, and cross-view IP navigation
+- LLM enrichment via Claude (Anthropic SDK) with deterministic fallback when key is absent
+- Threat intel integrations: AbuseIPDB, VirusTotal, AlienVault OTX (all server-side only)
+- MITRE ATT&CK technique mapping and NIST 800-61 structured report generation
+- 6-layer safety gate (kill switch, dry-run default, explicit execution flag) before any automated action
+- SQLite audit log, Sigma FP registry, and user baseline store
+- 213-test suite covering engine, adapters, intel, safety, LLM, and injection layers
 
 ---
 

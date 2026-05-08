@@ -17,16 +17,22 @@ I'm building toward a career centered on detection engineering and AI security r
 ## Featured Projects
 
 ### [ADTE (Autonomous Detection Triage Engine)](https://github.com/dlpz-SEC/adte-detection-triage-engine)
-`Multi-Source SIEM` `Python` `Pytest` `Detection Engineering` `SOC Automation`
+`Multi-Source SIEM` `Python` `Pytest` `Flask` `Anthropic SDK` `Detection Engineering` `SOC Automation`
 
-Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh (live) — with weighted signal scoring, explainable verdicts, and defense-in-depth execution controls.
+Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh (live) — with weighted signal scoring, explainable verdicts, defense-in-depth execution controls, and a full 10-view web UI for live triage review.
 
 **Key Components:**
 - Pluggable source adapters (Wazuh Indexer live, Sentinel mock)
 - 5-signal weighted scoring with proportional redistribution when signals are unavailable
 - 6-layer safety gate system before any automated action
-- Explainable verdicts with per-signal rationale
-- CLI for dry-run analysis and batch processing
+- Explainable verdicts with per-signal rationale and optional Claude-powered narrative summaries
+- Multi-source threat intel enrichment (AbuseIPDB, VirusTotal, OTX) with parallel API calls and per-IP cache
+- Full 10-view Flask web UI (single-file React SPA) with real-time alert queue and queue triage cache
+- Verdict audit log (SQLite), analyst FP/TP feedback loop with FP auto-promotion to registry
+- Alert router (Slack webhook) and auto-ticket pipeline (Linear, Trello) for high/medium risk verdicts
+- MITRE ATT&CK + NIST 800-61 coverage badges on all verdict surfaces
+- RBAC auth UX with session-safe bearer token storage
+- 213 passing tests across 10 test files; full security audit completed with all HIGH/MEDIUM/LOW findings remediated
 
 ---
 
@@ -125,11 +131,15 @@ Automated alert enrichment pipeline that queries VirusTotal for file hash reputa
 </div>
 
 **Building automated detection and response pipelines to reduce alert fatigue:**
-- Built ADTE (Autonomous Detection Triage Engine) — a deterministic, source-agnostic triage engine with pluggable SIEM adapters (Wazuh live, Sentinel mock), producing 0–100 risk and confidence scores with explainable per-signal verdicts
+- Built ADTE (Autonomous Detection Triage Engine) — a deterministic, source-agnostic triage engine with pluggable SIEM adapters (Wazuh live, Sentinel mock), producing 0–100 risk and confidence scores with explainable per-signal verdicts and optional Claude-powered narrative summaries via the Anthropic SDK
 - Engineered 5-signal weighted scoring: impossible travel (30pts), MFA fatigue (25pts), IP reputation (20pts), device novelty (15pts), and login hour anomaly (10pts) — with proportional weight redistribution when signals are unavailable
 - Implemented a 6-layer safety gate system enforcing defense-in-depth before any automated action — default config blocks all execution; dry-run, kill switch, tenant allowlist, and action allowlist must all pass
 - Designed deterministic routing policy that auto-closes known false positives and escalates high-fidelity alerts with enriched context attached
-- Maintained 110 passing tests across 8 test files covering adapter logic, signal weight redistribution, geo/intel enrichment, policy engine, safety gates, and CLI behavior via GitHub Actions CI
+- Integrated multi-source threat intel enrichment (AbuseIPDB, VirusTotal, OTX) with parallel API calls (ThreadPoolExecutor), module-level per-IP cache, and private IP short-circuit
+- Built a full 10-view Flask web UI (single-file React SPA) including a live alert queue with 300s server-side triage cache, verdict audit log (SQLite), analyst FP/TP feedback loop with FP auto-promotion to registry, and cross-view IP navigation
+- Shipped alert router (Slack webhook with stdout fallback) and auto-ticket pipeline (Linear and Trello) for high/medium risk verdicts; MITRE ATT&CK + NIST 800-61 badges surfaced on all verdict views
+- Conducted a structured security audit — all HIGH/MEDIUM/LOW findings remediated, including TLS verification, LLM prompt injection guard, request timeouts, and ZeroDivisionError guard
+- Maintained 213 passing tests across 10 test files covering adapter logic, signal weight redistribution, geo/intel enrichment, policy engine, safety gates, LLM assist, feedback loop, MITRE mapping, and SQL injection via GitHub Actions CI
 
 ---
 
@@ -245,7 +255,7 @@ Data Science & Computer Science
 
 - CompTIA Security+ certification
 - AI/ML security research within the MITRE ATLAS framework
-- Expanding ADTE with real Sentinel REST API integration, multi-source threat intel enrichment (AbuseIPDB, VirusTotal, OTX), and SOAR-ready JSON action output
+- Finalizing remaining ADTE roadmap items: real Sentinel REST API integration, batch processing mode, KQL rule pack, and SOAR-ready JSON action output for open-source orchestration tools
 
 ---
 

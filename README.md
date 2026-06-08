@@ -19,21 +19,22 @@ I'm building toward a career centered on detection engineering and AI security r
 ## [ADTE — Autonomous Detection & Triage Engine](https://github.com/davidlpz818/adte-detection-triage-engine)
 `Multi-Source SIEM` `Python` `Flask` `React` `Pytest` `Detection Engineering` `SOC Automation` `NIST 800-61`
 
-Deterministic, source-agnostic triage engine for security incidents — supports Sentinel (mock) and Wazuh Indexer (live) — with 5-signal weighted scoring, LLM-assisted summaries, explainable verdicts, and defense-in-depth execution controls.
+Deterministic, source-agnostic triage engine for security incidents — ingests Wazuh Indexer (live OpenSearch) and Sentinel-format JSON (mock) — with 5-signal weighted scoring, advisory LLM-assisted summaries, explainable verdicts, and a triage-only design (recommends actions, never executes them).
 
-**Key Components**
+Key Components
 
-- Pluggable source adapters: Wazuh Indexer live (OpenSearch) + Sentinel mock
+- OCSF-inspired normalized incident schema — source-agnostic events[] with required per-event type, vendor-neutral auth_status/event_risk, top-level source, and engine-derived severity (input severity rejected)
+- Pluggable source-adapter interface — live Wazuh Indexer (OpenSearch, port 9200); Sentinel ingested as normalized incident-format JSON (no live API)
 - 5-signal weighted scoring — impossible travel, MFA fatigue, IP reputation, device novelty, login-hour anomaly — with proportional redistribution when a signal is unavailable
-- Flask REST API — 12 endpoints with RBAC, per-key rate limiting, and CORS
-- Single-file React SPA — 9-view sidebar UI with Chart.js, dark/light theme, and cross-view IP navigation
-- LLM enrichment via Claude (Anthropic SDK) with deterministic fallback when key is absent
+- Flask REST API — 14 /api/* endpoints with RBAC, per-client rate limiting, and a CORS + CSRF-origin policy
+- Single-file React SPA (app.jsx → esbuild bundle) — 9-view sidebar UI with Chart.js, dark/light theme, and cross-view IP navigation
+- LLM-assisted narrative summaries via Claude (Anthropic SDK) — advisory only, never alters the verdict; deterministic fallback when no key is set
 - Threat intel integrations: AbuseIPDB, VirusTotal, AlienVault OTX (all server-side only)
-- MITRE ATT&CK technique mapping and NIST 800-61 structured report generation
-- 6-layer safety gate (kill switch, dry-run default, explicit execution flag) before any automated action
-- SQLite audit log, Sigma FP registry, and user baseline store
-- 213-test suite covering engine, adapters, intel, safety, LLM, and injection layers
-
+- MITRE ATT&CK technique mapping per signal and NIST 800-61 structured report generation
+- Triage-only by design — no automated execution path; the 6-layer safety-gate config (kill switch, dry-run default, explicit execution flag) is surfaced read-only, reserved for a future execution layer
+- SQLite audit log, false-positive (FP) registry with auto-promotion, and per-user baseline store
+- 272-test suite (13 files) covering engine, Wazuh adapter, geo, decision policy, threat intel, schema-migration contract, LLM assist, audit log, and SQL-injection layers
+- Status: Triage-only MVP complete; deployed on Render (Railway in progress).
 ---
 
 ### [Detection-as-Code Pipeline](https://github.com/dlpz-SEC/detection-as-code)

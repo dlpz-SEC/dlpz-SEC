@@ -16,7 +16,7 @@ I'm building toward a career centered on detection engineering and AI security r
 
 ## Featured Projects
 
-## [ADTE — Autonomous Detection & Triage Engine](https://github.com/davidlpz818/adte-detection-triage-engine)
+## [ADTE — Autonomous Detection & Triage Engine](https://github.com/dlpz-SEC/adte-detection-triage-engine)
 `Multi-Source SIEM` `Python` `Flask` `React` `Pytest` `Detection Engineering` `SOC Automation` `NIST 800-61`
 
 Deterministic, source-agnostic triage engine for security incidents — ingests Wazuh Indexer (live OpenSearch) and Sentinel-format JSON (mock) — with 5-signal weighted scoring, advisory LLM-assisted summaries, explainable verdicts, and a triage-only design (recommends actions, never executes them).
